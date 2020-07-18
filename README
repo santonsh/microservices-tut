@@ -1,0 +1,6 @@
+Several microservices are available:
+1. gui_service - a service serving VUE SPA
+2. upload_service - an AWS alpha functions to store image to S3 and to list stored images
+3. process_service - a flask service to download and process new images (from S3)
+4. store_service - a microservice to store and retrieve information from processed images   
+a. Terraform - a terraform tool config to initiate cloud resources
